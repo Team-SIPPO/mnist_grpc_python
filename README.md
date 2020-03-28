@@ -20,6 +20,8 @@ see [hellowold.proto](./proto/hellowold.proto)
 python -m grpc_tools.protoc -I./proto --python_out=. --grpc_python_out=. ./proto/helloworld.proto
 ```
 
+this code will generate greeter_client.py and greeter_server.py
+
 ## generate programs
 - server  
 wirte code for server
